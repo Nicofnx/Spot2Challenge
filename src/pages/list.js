@@ -135,12 +135,7 @@ const List = () => {
 					:<></>
 				}
 				
-				{ spots.length === 0 &&
-					
-					<Text>
-						{'No results found. try changing some filters'}
-					</Text>
-				}
+				
 			</Main>
 			<Modal
 				stateOn={ stateModal }
