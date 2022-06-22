@@ -1,0 +1,23 @@
+body{
+	background-color: rgb(15, 3, 22);
+}
+
+a{ text-decoration: none; }
+
+.loading-bar{
+	width: 30%;
+	height: 3px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background: linear-gradient(to right, rgba(252, 39, 188, 0.2) 0%,rgba(214, 11, 255, 0.596) 50%,rgba(252, 39, 224, 0.2) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66fc7b27', endColorstr='#66fc7b27',GradientType=1 );
+	animation: loading-animation 1.5s ease infinite; 
+	z-index: 9;
+}
+
+@keyframes loading-animation {
+	0% {left: -100px;}
+	99% { left: 100%} 
+}
