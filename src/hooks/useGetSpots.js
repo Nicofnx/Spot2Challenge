@@ -24,14 +24,14 @@ const useGetSpots = () => {
 			url_params: data
 		});
 
-		setSending(true);
+		/* setSending(true);
 		(async () => {
 			const response  = await getSpots({data});
 			console.log(response);
 			setSending(false);
 			setSpots(response?.data?.spots);
 			
-		})();
+		})(); */
 
 		
 
